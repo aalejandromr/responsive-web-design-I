@@ -284,6 +284,23 @@ hr {
     background-color: black;
 }
 
+.container.main-panel {
+	border-bottom: 2px solid;
+}
+
+section.container:last-child {
+	border-bottom: 2px solid;
+}
+
+button {
+	height: 29px;
+	width: 168px;
+	background-color: transparent;
+	font-family: inherit;
+	background-image: none;
+	margin-top: 5%;
+}
+
 /* start of desktop styles */
 
 @media screen and (max-width: 479px) {

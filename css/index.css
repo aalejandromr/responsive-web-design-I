@@ -395,6 +395,37 @@ button {
 		background-image: none;
 		margin-top: 5%;
 	}
+
+	.services-header-img {
+		display: none;
+	}
+
+	.services-info-img {
+		width: 100%
+	}
+
+	.facts-item {
+		width: 100%;
+	}
+
+	.services-section {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.services-section p {
+		text-align: center;
+	}
+
+	.container.service-facts {
+		text-align: center;
+	}
+
+	#services section {
+		width: 100%;
+		margin: 2% 0% 2% 0%;
+	}
 }
 
 @media screen and (max-width: 1100px) {
